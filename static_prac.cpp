@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 class Emp{
-    static int id;
+     int id=1;
     public:
     void show()
     {
         cout<<id++<<" ";
     }
 };
-int Emp:: id;
+
 int main()
 {
     Emp e1,e2,e3;
