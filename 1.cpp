@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class Complex{
     int real,imaginary;
     public:
